@@ -88,3 +88,8 @@ $$ LANGUAGE plpgsql;
 CREATE TRIGGER audit_fatura_silme
 BEFORE DELETE ON faturalar
 FOR EACH ROW EXECUTE FUNCTION fatura_silmeyi_engelle_ve_logla();
+
+
+ 
+ADIM 4: SQL Injection Testi ve Koruma (Python)
+sqlinjectiontest.py kodu yazıldı. 
