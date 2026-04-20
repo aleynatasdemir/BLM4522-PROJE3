@@ -5,7 +5,7 @@ print("=== E-TİCARET SİSTEMİ BAĞLANTISI BAŞLIYOR ===")
 # app_user yetkisiyle veritabanına bağlanıyoruz
 try:
     conn = psycopg2.connect(
-        dbname="postgres",
+        dbname="ecommerce",
         user="app_user",
         password="user123",
         host="127.0.0.1",
